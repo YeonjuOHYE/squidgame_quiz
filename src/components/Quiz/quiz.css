@@ -1,0 +1,11 @@
+  .quiz-exit {
+    opacity: 1;
+  }
+  .quiz-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms;
+  }
+  .quiz-exit-done {
+    opacity: 0;
+  }
+  

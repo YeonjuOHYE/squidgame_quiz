@@ -1,0 +1,15 @@
+.score-enter {
+  opacity: 0;
+}
+.score-enter-active {
+  opacity: 1;
+  transition: opacity 5000ms;
+}
+
+/* .score-exit {
+  opacity: 1;
+}
+.score-exit-active {
+  opacity: 0;
+  transition: opacity 5000ms;
+} */

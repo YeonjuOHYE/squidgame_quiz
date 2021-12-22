@@ -1,0 +1,38 @@
+<svg width="360" height="50" xmlns="http://www.w3.org/2000/svg"
+stroke="#fff"
+fill="#fff"
+viewBox="-20 14 260 25"
+id="confirm"
+>
+ <g>
+  <title>Layer 1</title>
+  <line  fill="none" x1="16.45888" y1="24.80393" x2="199.78366" y2="24.80393" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line  fill="none" x1="190.56135" y1="16.19071" x2="199.61614" y2="25.2455" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(-90 194.444 30.0727)"  fill="none" x1="189.9162" y1="25.54547" x2="198.97098" y2="34.60026" id="svg_5" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <ellipse stroke-dasharray="360" ry="15.81321" rx="15.81321" id="confirm_point" cy="25.06206" cx="194.9659" fill="transparent" 
+  pointer-events="fill"
+  stroke="#ff87c6"
+  >
+  </ellipse>
+  <!-- <text transform="matrix(0.495137 0 0 0.495137 71.3276 119.779)"  xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_8" y="-182.11345" x="284.63031">확인</text> -->
+
+    <animate attributeName="stroke-dashoffset" values="360;0" dur="1s" 
+    id="confirm_circleSpinAnimation"
+   fill="freeze"
+  repeatCount="1"
+ 
+   />
+      <animateTransform
+    attributeType="XML"
+    attributeName="transform"
+    type="translate"
+    from="-10" to="0"
+    dur="0.5s"
+    fill="freeze"
+    repeatCount="1"
+    id="confirm_arrowMoveAnimation"
+    />
+
+ </g>
+
+</svg>
