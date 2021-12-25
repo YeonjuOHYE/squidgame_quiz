@@ -1,10 +1,10 @@
-import Stack from "./Stack";
-
 const CardStack = (function () {
   let stack = null;
   function createInstance(el) {
-    if (!stack) {
-      stack = new Stack(el);
+    if (!stack && typeof window !== "undefined") {
+      import("./Stack").then((Stack) => {
+        stack = new Stack.default(el);
+      })
     }
   }
 
